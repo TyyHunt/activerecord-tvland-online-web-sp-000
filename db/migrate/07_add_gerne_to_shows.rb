@@ -1,7 +1,7 @@
 class AddGerneToShows < ActiveRecord::Migration[4.2]
 
   def change
-    add_column :genre, :shows, :string
+    add_column :shows, :genre, :string
   end
 
 end
